@@ -1,0 +1,59 @@
+.portada {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary);
+
+  padding: 0 2em;
+}
+
+.portada__contenedor {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portada__portfolio {
+  padding-top: 50px;
+  color: var(--secondary);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.portada__name {
+  width: 100%;
+  color: var(--text);
+  font-size: 24px;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  letter-spacing: 12.25px;
+  word-wrap: break-word;
+  align-self: start;
+}
+
+.portada__p {
+  color: var(--text);
+  font-size: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  font-size: 13px;
+}
+
+.portada__boton {
+  margin: 30px 0;
+  width: 40%;
+  padding: 10px;
+  background: #8669f1;
+  border-radius: 15px;
+  border: none;
+  color: var(--text);
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 7px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
