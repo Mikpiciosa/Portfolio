@@ -1,12 +1,16 @@
+* {
+}
+
 .portada {
   display: flex;
   flex-direction: column;
   background-color: var(--primary);
-
   padding: 0 2em;
 }
 
 .portada__contenedor {
+  margin: 0 auto;
+  max-width: 300px;
   gap: 10px;
   display: flex;
   flex-direction: column;
@@ -15,6 +19,7 @@
 }
 
 .portada__portfolio {
+  align-self: start;
   padding-top: 50px;
   color: var(--secondary);
   font-family: "Montserrat", sans-serif;
@@ -23,7 +28,7 @@
 }
 
 .portada__name {
-  width: 100%;
+  display: block;
   color: var(--text);
   font-size: 24px;
   font-family: Bebas Neue;
@@ -31,6 +36,10 @@
   letter-spacing: 12.25px;
   word-wrap: break-word;
   align-self: start;
+}
+
+.portada__name span {
+  letter-spacing: normal;
 }
 
 .portada__p {

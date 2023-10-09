@@ -46,6 +46,19 @@
   font-family: Montserrat;
 }
 
+.about__text--animated .texto {
+  transition: height 0.5s ease;
+}
+
+.about--desplegable .texto {
+  height: 120px;
+}
+
+.about--nodesplegable .texto {
+  height: 0; /* Inicialmente, la altura es 0 para ocultar el texto */
+  overflow: hidden; /* Oculta el contenido que desborda */
+}
+
 .contenedor__about--boton {
   width: 100%;
   align-self: center;
