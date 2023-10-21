@@ -8,7 +8,7 @@ export const Portada = () => {
         <h1 className="portada__name">
           Micaela Muño<span>z</span>
         </h1>
-        <p className="portada__p">Desarrolladora Web Full Stack</p>
+        <p className="portada__p">Desarrolladora y Diseñadora Web</p>
         <button className="portada__boton">Descargar CV</button>
       </div>
     </section>
