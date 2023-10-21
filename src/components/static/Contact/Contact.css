@@ -1,0 +1,22 @@
+.contact--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 30px;
+}
+
+.contact--title {
+  font-family: var(--bebas);
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+
+.contact--form {
+  background-color: var(--secondary);
+  padding: 50px;
+  border-radius: 20px;
+}
