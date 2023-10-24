@@ -15,8 +15,17 @@
   font-size: 35px;
 }
 
+.contact--text {
+  font-family: var(--monst);
+}
 .contact--form {
-  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
   padding: 50px;
   border-radius: 20px;
+  margin: 40px;
+}
+
+.contact--img {
+  height: 30px;
+  margin: 20px 5px;
 }
