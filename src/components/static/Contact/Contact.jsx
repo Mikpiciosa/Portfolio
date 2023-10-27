@@ -29,6 +29,9 @@ export const Contact = () => {
         <input type="text" />
         <label htmlFor="">Mensaje</label>
         <input type="text" />
+        <button className="" type="submit">
+          Enviar
+        </button>
       </form>
     </section>
   );
