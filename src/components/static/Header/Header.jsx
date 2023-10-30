@@ -1,6 +1,5 @@
 import "./Header.css";
 import { useState } from "react";
-/* import Logo from "../../../assets/logo/cat_logo.webp"; */
 import hamg from "/hamb.svg";
 import x from "/x.svg";
 
@@ -24,7 +23,7 @@ export const Header = () => {
         <div className="header__menu">
           <div className="header__menu-btncontainer">
             <button className="header__menu-button" onClick={toggleMenu}>
-              <img src={x} alt="boton cerrar" />
+              <img className="header__menu-x" src={x} alt="boton cerrar" />
             </button>
           </div>
           <nav className="header__menu-nav">
@@ -59,7 +58,7 @@ export const Header = () => {
         </div>
       )}
       <button className="header__menu-button menu-abrir" onClick={toggleMenu}>
-        <img src={hamg} alt="menu hamb" />
+        <img className="header__menu-img" src={hamg} alt="menu hamb" />
       </button>
       <nav className="header__nav">
         <ul className="header__nav-list">

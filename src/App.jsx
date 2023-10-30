@@ -1,5 +1,4 @@
 import { Header } from "./components/static/Header/Header.jsx";
-import { Footer } from "./components/static/Footer/Footer.jsx";
 
 import { Portada } from "./components/static/Portada/Portada.jsx";
 import { About } from "./components/static/About/About.jsx";
@@ -20,7 +19,6 @@ function App() {
         <Certifications />
         <Contact />
       </main>
-      <Footer />
     </>
   );
 }

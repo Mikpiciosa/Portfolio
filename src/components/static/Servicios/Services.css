@@ -55,6 +55,7 @@
 .serv--boton {
   align-items: center;
   border-radius: 34px;
+  background-color: transparent;
   border: 2px solid var(--cards);
   color: var(--text);
   font-family: var(--bebas);
