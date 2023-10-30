@@ -20,3 +20,17 @@
   border-radius: 10px;
   margin-top: 30px;
 }
+
+@media (min-width: 768px) {
+  .cert--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 20px;
+  }
+
+  .container--img {
+    width: 300px;
+    height: 250px;
+  }
+}

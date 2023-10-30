@@ -1,5 +1,4 @@
 import "./About.css";
-import { abouticons } from "./Abouticons.js";
 
 export const About = () => {
   return (

@@ -65,3 +65,29 @@
   cursor: pointer;
   transition: all 0.3s linear;
 }
+
+@media (min-width: 768px) {
+  .contact-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+* {
+  outline: 1px solid red;
+}

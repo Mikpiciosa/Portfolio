@@ -80,3 +80,19 @@
   cursor: pointer;
   transition: all 0.3s linear;
 }
+
+@media (min-width: 768px) {
+  .project--container {
+    width: 80%;
+  }
+
+  .projects__cont {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+
+/* * {
+  outline: 1px solid red;
+} */

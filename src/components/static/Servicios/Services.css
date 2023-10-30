@@ -77,3 +77,13 @@
   cursor: pointer;
   transition: all 0.3s linear;
 }
+
+@media (min-width: 768px) {
+  .servide__sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+  }
+}
