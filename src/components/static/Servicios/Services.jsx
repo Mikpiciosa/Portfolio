@@ -8,7 +8,7 @@ export const Services = () => {
       <p className="title--text">
         Encontremos juntos la forma de plasmar tu idea.
       </p>
-      <div className="servide__sections">
+      <div className="service__sections">
         <section className="service__diseñouxui ">
           <h2 className="titulo">Diseño Ux/Ui</h2>
           <p>
@@ -19,9 +19,9 @@ export const Services = () => {
           </p>
           <button className="serv--boton">Ver más</button>
         </section>
-        <section className="service__diseñouxui">
+        <section className="service__diseñouxui ">
           <h2 className="titulo">Desarrollo Web</h2>
-          <p>
+          <p className="olamundo">
             Cuento con todo lo necesario para crearte una web totalmente
             funcional, bien estructurada y sobretodo, agradable a la vista.
           </p>

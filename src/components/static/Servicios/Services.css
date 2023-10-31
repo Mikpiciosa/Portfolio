@@ -41,9 +41,11 @@
 .service__diseñouxui {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
   border-radius: 34px;
   border: 2px solid var(--cards);
-  width: 70%;
+  width: 20rem;
   padding: 20px;
   margin-top: 40px;
 }
@@ -80,17 +82,33 @@
 
 .servide__sections {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
-  .servide__sections {
+  .service__sections {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 450px;
+    gap: 1.5rem;
+    width: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  .service__sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 90%;
+  }
+
+  .service__diseñouxui {
+    font-size: 13px;
   }
 }

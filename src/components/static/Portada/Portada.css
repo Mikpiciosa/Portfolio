@@ -67,6 +67,17 @@
 @media (min-width: 768px) {
   .portada__contenedor {
     max-width: 700px;
-    width: 500px;
+  }
+
+  .portada__portfolio {
+    font-size: 40px;
+  }
+
+  .portada__name {
+    font-size: 40px;
+  }
+
+  .portada__p {
+    font-size: 15px;
   }
 }
