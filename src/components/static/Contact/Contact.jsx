@@ -9,20 +9,23 @@ export const Contact = () => {
       <div className="linear--right"></div>
       <h2 className="contact__title">Contacto</h2>
       <section className="contact-cont">
-        <div>
-          <a href="mailto:micagustina.m@gmail.com">
-            <img className="contact__img" src={mail} alt="" />
-          </a>
-          <a href="https://www.linkedin.com/in/micaela-oz/">
-            <img className="contact__img" src={linkedin} alt="" />
-          </a>
-          <a href="https://github.com/Mikpiciosa">
-            <img className="contact__img" src={git} alt="" />
-          </a>
+        <div className="contact--conta">
+          <div className="contact--icons">
+            <a href="mailto:micagustina.m@gmail.com">
+              <img className="contact__img" src={mail} alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/micaela-oz/">
+              <img className="contact__img" src={linkedin} alt="" />
+            </a>
+            <a href="https://github.com/Mikpiciosa">
+              <img className="contact__img" src={git} alt="" />
+            </a>
+          </div>
+          <p className="contact__text">
+            Si tenes algún proyecto en mente, estaré encantada de escucharte.
+          </p>
         </div>
-        <p className="contact__text">
-          Si tenes algún proyecto en mente, estaré encantada de escucharte.
-        </p>
+
         <form className="contact__form" action="">
           <label className="contact__item--text" htmlFor="">
             Nombre

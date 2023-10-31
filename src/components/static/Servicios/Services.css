@@ -78,6 +78,13 @@
   transition: all 0.3s linear;
 }
 
+.servide__sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   .servide__sections {
     display: flex;
