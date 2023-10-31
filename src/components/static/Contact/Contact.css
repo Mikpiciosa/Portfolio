@@ -96,6 +96,39 @@
     flex-direction: column;
   }
 }
+@media (min-width: 1200px) {
+  .contact-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 350px;
+  }
+
+  .form--item {
+    width: 250px;
+    color: white;
+  }
+
+  .contact--conta {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__title {
+    font-size: 50px;
+  }
+
+  .contact__text {
+    font-size: 20px;
+  }
+}
 
 /* * {
   outline: 1px solid red;

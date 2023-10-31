@@ -95,12 +95,21 @@
     width: 40rem;
   }
 
+  .projects--title {
+    font-size: 50px;
+  }
+
   .projects__cont {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     gap: 3rem;
+  }
+
+  .container--textandbutton {
+    display: inline;
+    width: 450px;
   }
 
   .project--title {

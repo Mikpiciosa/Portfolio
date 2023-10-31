@@ -108,6 +108,14 @@
     width: 90%;
   }
 
+  .titulo--principal {
+    font-size: 50px;
+  }
+
+  .title--text {
+    font-size: 15px;
+  }
+
   .service__diseñouxui {
     font-size: 13px;
   }

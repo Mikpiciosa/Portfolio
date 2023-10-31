@@ -30,7 +30,7 @@ export const Contact = () => {
           <label className="contact__item--text" htmlFor="">
             Nombre
           </label>
-          <input className="form--item" type="text" />
+          <input className="form--item" type="email" />
           <label className="contact__item--text" htmlFor="">
             Correo
           </label>
@@ -39,7 +39,13 @@ export const Contact = () => {
             Mensaje
           </label>
           <input className="form--item" type="text" />
-          <button className="form__btn" type="submit">
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+            }}
+            className="form__btn"
+            type="submit"
+          >
             Enviar
           </button>
         </form>

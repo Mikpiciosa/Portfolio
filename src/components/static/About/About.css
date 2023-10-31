@@ -30,3 +30,14 @@
     margin-right: 150px;
   }
 }
+
+@media (min-width: 1200px) {
+  .about--text {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .about--title {
+    font-size: 50px;
+  }
+}

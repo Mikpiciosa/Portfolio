@@ -9,7 +9,12 @@ export const Portada = () => {
           Micaela Muño<span>z</span>
         </h1>
         <p className="portada__p">Desarrolladora y Diseñadora Web</p>
-        <button className="portada__boton">Descargar CV</button>
+        <a
+          className="portada__boton"
+          href="https://drive.google.com/file/d/1xfm3-1yybQsj3CIDTBaoHjhHuH0HpwSk/view?usp=drive_link"
+        >
+          Descargar CV
+        </a>
       </div>
     </section>
   );

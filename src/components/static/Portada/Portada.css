@@ -62,9 +62,32 @@
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  text-align: center;
+}
+
+.portada__boton:hover {
+  background-color: white;
+  color: var(--secondary);
 }
 
 @media (min-width: 768px) {
+  .portada__contenedor {
+    max-width: 700px;
+  }
+
+  .portada__portfolio {
+    font-size: 40px;
+  }
+
+  .portada__name {
+    font-size: 40px;
+  }
+
+  .portada__p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1200px) {
   .portada__contenedor {
     max-width: 700px;
   }
