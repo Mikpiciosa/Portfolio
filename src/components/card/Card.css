@@ -1,0 +1,39 @@
+/* Card style */
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bubble__project__container {
+  position: absolute;
+  z-index: -1;
+}
+
+.work__content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.work__description {
+  display: flex;
+  flex: 1;
+
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.work__paragraph {
+  max-width: 31ch;
+}
+
+.work__btn {
+  margin-top: 20px;
+}

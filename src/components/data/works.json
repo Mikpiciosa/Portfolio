@@ -1,0 +1,32 @@
+{
+  "works": [
+    {
+      "title": "El Instalador de Calderas",
+      "pagraph": "asdsdasdasdasdasdasdasdasd",
+      "img": "./img/calderas.png",
+      "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
+      "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
+    },
+    {
+      "title": "MM-Estudio",
+      "pagraph": "lorem",
+      "img": "./img/calderas.png",
+      "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
+      "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
+    },
+    {
+      "title": "MM-Estudio",
+      "pagraph": "lorem",
+      "img": "./img/calderas.png",
+      "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
+      "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
+    },
+    {
+      "title": "MM-Estudio",
+      "pagraph": "lorem",
+      "img": "./img/calderas.png",
+      "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
+      "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
+    }
+  ]
+}

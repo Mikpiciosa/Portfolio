@@ -1,0 +1,63 @@
+.projects__container {
+}
+
+.project__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Bubbles */
+
+.bubble__project__container {
+  position: absolute;
+}
+
+.bubble {
+  position: absolute;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+
+.bubbleProject-1 {
+  position: absolute;
+  margin-left: 5%;
+  width: 30.16%;
+  background: linear-gradient(
+    50deg,
+    rgba(218, 90, 160, 0.687) 0%,
+    rgba(230.56, 151.79, 217.96, 0) 100%
+  );
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.bubbleProject-2 {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -3%;
+  width: 25%;
+  background: linear-gradient(
+    50deg,
+    rgba(218, 90, 160, 0.687) 0%,
+    rgba(230.56, 151.79, 217.96, 0) 100%
+  );
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.bubbleProject-3 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 50%;
+  margin-top: 5%;
+  width: 20%;
+  background: linear-gradient(
+    50deg,
+    rgba(218, 90, 160, 0.687) 0%,
+    rgba(230.56, 151.79, 217.96, 0) 100%
+  );
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(1px);
+}
