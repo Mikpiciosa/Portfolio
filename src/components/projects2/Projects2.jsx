@@ -15,7 +15,6 @@ export const Projects2 = () => {
           font="bebas"
           tono="title"
         />
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
       </article>
       <section className="works__card">
         {cardInfo.works.map((card) => {

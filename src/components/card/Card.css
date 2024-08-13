@@ -40,11 +40,31 @@
 
 .work__paragraph {
   max-width: 31ch;
+  font-family: var(--monst);
   color: #da5aa0;
 }
 
 .work__btn {
+  align-items: center;
+  border-radius: 34px;
+  text-align: center;
+  border: 1px solid var(--title);
+  color: var(--title);
+  font-family: var(--bebas);
+  width: 50%;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   margin-top: 20px;
+  font-size: 15px;
+  font-weight: 200;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  margin-top: 20px;
+}
+
+.work__p {
+  font-family: var(--bebas);
 }
 
 aside img {

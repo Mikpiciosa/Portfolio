@@ -2,31 +2,43 @@
   "works": [
     {
       "title": "El Instalador de Calderas",
-      "pagraph": "Con nuestro servicio de diseño UX/UI ofrecemos acompañamiento desde el UX con una amplia investigacion.",
+      "pagraph": "The Boiler Installer is a page developed with React that provides detailed information about the business.",
       "img": "./img/calderas.png",
-      "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
+      "link": "https://elinstaladordecalderas.com.ar/",
       "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
     },
     {
       "title": "MM-Estudio",
-      "pagraph": "Con nuestro servicio de diseño UX/UI ofrecemos acompañamiento desde el UX con una amplia investigacion.",
-      "img": "./img/calderas.png",
-      "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
+      "pagraph": "Mm Estudio is an engineering firm specializing in the design, calculation, and development of reinforced concrete structure projects.",
+      "img": "./img/mmstudio.png",
+      "link": "https://mm-estudio-ing.vercel.app/",
       "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
     },
     {
       "title": "GK Consulting",
-      "pagraph": "Con nuestro servicio de diseño UX/UI ofrecemos acompañamiento desde el UX con una amplia investigacion.",
-      "img": "./img/calderas.png",
-      "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
+      "pagraph": "Gk Consulting is a project created to represent the partnership between an accounting firm and a law firm.",
+      "img": "./img/gk.png",
+      "link": "https://gk-consulting.vercel.app/",
       "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
     },
     {
-      "title": "MM-Estudio",
-      "pagraph": "Con nuestro servicio de diseño UX/UI ofrecemos acompañamiento desde el UX con una amplia investigacion.",
-      "img": "./img/calderas.png",
-      "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
+      "title": "Smart Trading",
+      "pagraph": "Smart Trading is a landing page that promotes a product for integrating technology into brokerage processes, reducing effort and risks.",
+      "img": "./img/smartrading.png",
+      "link": "https://www.smartrading.com.ar/",
       "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
+    },
+    {
+      "title": "ERB",
+      "pagraph": "I designed a UX/UI interface for ERB using the design thinking method.",
+      "img": "./img/erb.png",
+      "icons": ["./icons/figma.svg"]
+    },
+    {
+      "title": "OWL",
+      "pagraph": "I designed a UX/UI interface for OWL using the design thinking method.",
+      "img": "./img/owl.png",
+      "icons": ["./icons/figma.svg"]
     }
   ]
 }

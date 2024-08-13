@@ -22,11 +22,11 @@ export const Card = ({ img, titleP, pagraph, link, icons }) => {
           />
           <p className="work__paragraph">{pagraph}</p>
           <a className="work__btn" href={link} target="_blank">
-            Ver mas
+            View more
           </a>
         </div>
         <div className="work__icons">
-          <p>Realizado con:</p>
+          <p className="work__p">Realizado con:</p>
           <aside>
             {icons.length > 0
               ? icons.map((icon) => {

@@ -1,0 +1,61 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont__icons {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.skill__title {
+  padding: 30px;
+  color: var(--title);
+  font-size: 40px;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  text-align: center;
+}
+
+.skills__text {
+  font-size: 15px;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  text-align: center;
+  color: var(--title);
+  max-width: 20ch;
+}
+
+.skills__icons {
+  margin-bottom: 1rem;
+  width: 50px;
+  height: 50px;
+}
+
+.icon__cont {
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cont__skills {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pepis {
+    max-width: 40%;
+    margin: 0 auto;
+  }
+}
