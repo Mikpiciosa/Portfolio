@@ -2,28 +2,28 @@
   "works": [
     {
       "title": "El Instalador de Calderas",
-      "pagraph": "asdsdasdasdasdasdasdasdasd",
+      "pagraph": "Con nuestro servicio de diseño UX/UI ofrecemos acompañamiento desde el UX con una amplia investigacion.",
       "img": "./img/calderas.png",
       "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
       "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
     },
     {
       "title": "MM-Estudio",
-      "pagraph": "lorem",
+      "pagraph": "Con nuestro servicio de diseño UX/UI ofrecemos acompañamiento desde el UX con una amplia investigacion.",
+      "img": "./img/calderas.png",
+      "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
+      "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
+    },
+    {
+      "title": "GK Consulting",
+      "pagraph": "Con nuestro servicio de diseño UX/UI ofrecemos acompañamiento desde el UX con una amplia investigacion.",
       "img": "./img/calderas.png",
       "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
       "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
     },
     {
       "title": "MM-Estudio",
-      "pagraph": "lorem",
-      "img": "./img/calderas.png",
-      "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
-      "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
-    },
-    {
-      "title": "MM-Estudio",
-      "pagraph": "lorem",
+      "pagraph": "Con nuestro servicio de diseño UX/UI ofrecemos acompañamiento desde el UX con una amplia investigacion.",
       "img": "./img/calderas.png",
       "link": "https://www.linkedin.com/company/el-instalador-de-calderas-argentina/?originalSubdomain=ar",
       "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]

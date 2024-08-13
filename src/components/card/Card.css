@@ -2,6 +2,7 @@
 
 .work {
   display: flex;
+  gap: 32px;
   flex-wrap: wrap;
 }
 
@@ -16,8 +17,15 @@
   gap: 20px;
 }
 
+.work__title {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .img {
-  width: 40%;
+  width: 60%;
+  object-fit: cover;
   border-radius: 10px;
 }
 
@@ -32,8 +40,21 @@
 
 .work__paragraph {
   max-width: 31ch;
+  color: #da5aa0;
 }
 
 .work__btn {
   margin-top: 20px;
+}
+
+aside img {
+  width: 35px;
+  height: 35px;
+}
+
+.work__icons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  color: #da5aa0;
 }

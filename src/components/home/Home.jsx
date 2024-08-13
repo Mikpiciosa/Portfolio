@@ -1,4 +1,4 @@
-import { Title } from "../title/title";
+import { Title } from "../title/Title";
 import "./Home.css";
 import frontLogo from "/logo/loguito.svg";
 

@@ -1,4 +1,4 @@
-import { Title } from "../title/title";
+import { Title } from "../title/Title";
 import "./Projects2.css";
 import { Card } from "../card/Card";
 import cardInfo from "../data/works";
@@ -17,17 +17,19 @@ export const Projects2 = () => {
         />
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
       </article>
-      {cardInfo.works.map((card) => {
-        return (
-          <Card
-            titleP={card.title}
-            icons={card.icons}
-            img={card.img}
-            pagraph={card.pagraph}
-            link={card.link}
-          />
-        );
-      })}
+      <section className="works__card">
+        {cardInfo.works.map((card) => {
+          return (
+            <Card
+              titleP={card.title}
+              icons={card.icons}
+              img={card.img}
+              pagraph={card.pagraph}
+              link={card.link}
+            />
+          );
+        })}
+      </section>
     </section>
   );
 };
