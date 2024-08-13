@@ -4,7 +4,7 @@ import frontLogo from "/logo/loguito.svg";
 
 export const Home = () => {
   return (
-    <section className="home__container">
+    <section className="home__container" id="about">
       <article className="bubble-container">
         <div className="bubble bubble-1"></div>
         <div className="bubble bubble-2"></div>

@@ -5,7 +5,7 @@ import cardInfo from "../data/works";
 
 export const Projects2 = () => {
   return (
-    <section className="projects__container">
+    <section className="projects__container" id="projects">
       <article className="project__title">
         <div className="linear"></div>
         <Title

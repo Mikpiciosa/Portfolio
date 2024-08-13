@@ -3,7 +3,7 @@ import { Title } from "../title/Title";
 
 export const Contact = () => {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="linear"></div>
       <Title
         name="Contact"

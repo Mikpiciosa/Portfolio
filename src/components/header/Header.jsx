@@ -23,17 +23,17 @@ export const Header = () => {
         </div>
         <ul className={`menu__list ${isClickedMenu && "menu__list--open"} `}>
           <li className="list__item">
-            <a className="list__link" href="">
+            <a className="list__link" href="#about">
               About
             </a>
           </li>
           <li className="list__item">
-            <a className="list__link" href="">
+            <a className="list__link" href="#projects">
               Projects
             </a>
           </li>
           <li className="list__item">
-            <a className="list__link" href="">
+            <a className="list__link" href="#contact">
               Contact
             </a>
           </li>
