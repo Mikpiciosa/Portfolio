@@ -1,3 +1,5 @@
+import "./Title.css";
+
 export const Title = ({ name, size, direction, importance, tono, font }) => {
   const sizes = (size) => {
     if (size === "large") {
@@ -56,6 +58,8 @@ export const Title = ({ name, size, direction, importance, tono, font }) => {
 
   const TitleTag = importance || "h1";
 
+  const className = size ? `title-${size}` : "";
+
   const style = {
     ...sizes(size),
     ...direct(direction),
@@ -63,5 +67,5 @@ export const Title = ({ name, size, direction, importance, tono, font }) => {
     ...colors(tono),
   };
 
-  return <TitleTag style={style}>{name}</TitleTag>;
+  return <TitleTag className={className} style={style}>{name}</TitleTag>;
 };

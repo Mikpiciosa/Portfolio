@@ -3,6 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 20px 10px;
+  }
 }
 
 .cont__icons {
@@ -22,6 +29,20 @@
   font-family: Bebas Neue;
   font-weight: 400;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .skill__title {
+    font-size: 32px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill__title {
+    font-size: 28px;
+    padding: 15px;
+  }
 }
 
 .skills__text {
@@ -57,5 +78,32 @@
   .pepis {
     max-width: 40%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 999px) {
+  .cont__skills {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .pepis {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cont__icons {
+    gap: 15px;
+  }
+
+  .skills__icons {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skills__text {
+    font-size: 13px;
   }
 }

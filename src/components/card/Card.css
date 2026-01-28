@@ -6,6 +6,13 @@
   flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+  .work {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
 .bubble__project__container {
   position: absolute;
   z-index: -1;
@@ -29,6 +36,12 @@
   border-radius: 10px;
 }
 
+@media (max-width: 768px) {
+  .img {
+    width: 100%;
+  }
+}
+
 .work__description {
   display: flex;
   flex: 1;
@@ -42,6 +55,12 @@
   max-width: 31ch;
   font-family: var(--monst);
   color: #da5aa0;
+}
+
+@media (max-width: 768px) {
+  .work__paragraph {
+    max-width: 100%;
+  }
 }
 
 .work__btn {
@@ -61,6 +80,13 @@
   border-radius: 10px;
   transition: all 0.3s linear;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .work__btn {
+    width: 100%;
+    font-size: 14px;
+  }
 }
 
 .work__p {

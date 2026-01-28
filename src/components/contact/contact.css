@@ -3,6 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 20px 10px;
+  }
 }
 
 .contact__title {
@@ -38,6 +45,21 @@
 .contact__text {
   font-family: var(--monst);
   margin: 40px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contact__text {
+    margin: 30px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact__text {
+    margin: 20px 15px;
+    font-size: 0.85rem;
+  }
 }
 .contact__form {
   border: 2px solid var(--title);
@@ -87,7 +109,49 @@
   transition: all 0.3s linear;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+  .contact-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    max-width: none;
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .form--item {
+    width: 100%;
+  }
+
+  .contact--conta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact--icons {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .contact__img,
+  .img__mail,
+  .img__linkedin {
+    height: 28px;
+    margin: 10px 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
   .contact-cont {
     display: flex;
     flex-direction: column;

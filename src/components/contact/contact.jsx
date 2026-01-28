@@ -33,34 +33,6 @@ export const Contact = () => {
             If you have any project in mind, I’d be delighted to hear about it.
           </p>
         </div>
-
-        <form className="contact__form" action="">
-          <label className="contact__item--text" htmlFor="">
-            Nombre
-          </label>
-          <input className="form--item" type="email" />
-          <label className="contact__item--text" htmlFor="">
-            Correo
-          </label>
-          <input className="form--item" type="text" />
-          <label className="contact__item--text" htmlFor="">
-            Mensaje
-          </label>
-          <textarea
-            className="form--item msj"
-            type="text"
-            placeholder="Escribe tu mensaje"
-          ></textarea>
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-            }}
-            className="form__btn"
-            type="submit"
-          >
-            Enviar
-          </button>
-        </form>
       </section>
     </section>
   );

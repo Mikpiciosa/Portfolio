@@ -40,3 +40,61 @@ ul {
 a {
   text-decoration: none;
 }
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive font sizes for mobile */
+@media (max-width: 768px) {
+  h1[style*="70px"] {
+    font-size: 50px !important;
+  }
+  
+  h1[style*="40px"],
+  h2[style*="40px"] {
+    font-size: 32px !important;
+  }
+  
+  h1[style*="20px"],
+  h2[style*="20px"],
+  h3[style*="20px"] {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h1[style*="70px"] {
+    font-size: 40px !important;
+  }
+  
+  h1[style*="40px"],
+  h2[style*="40px"] {
+    font-size: 28px !important;
+  }
+  
+  h1[style*="20px"],
+  h2[style*="20px"],
+  h3[style*="20px"] {
+    font-size: 16px !important;
+  }
+}
+
+/* Responsive linear divider */
+@media (max-width: 768px) {
+  .linear {
+    width: 80px;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .linear {
+    width: 60px;
+    margin: 15px 0;
+  }
+}

@@ -4,7 +4,7 @@
       "title": "El Instalador de Calderas",
       "pagraph": "The Boiler Installer is a page developed with React that provides detailed information about the business.",
       "img": "./img/calderas.png",
-      "link": "https://elinstaladordecalderas.com.ar/",
+      
       "icons": ["./icons/react.svg", "./icons/html.svg", "./icons/css.svg"]
     },
     {

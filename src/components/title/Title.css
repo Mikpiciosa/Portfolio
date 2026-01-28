@@ -1,0 +1,28 @@
+/* Responsive font sizes */
+@media (max-width: 768px) {
+  .title-large {
+    font-size: 50px !important;
+  }
+  
+  .title-medium {
+    font-size: 32px !important;
+  }
+  
+  .title-small {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-large {
+    font-size: 40px !important;
+  }
+  
+  .title-medium {
+    font-size: 28px !important;
+  }
+  
+  .title-small {
+    font-size: 16px !important;
+  }
+}

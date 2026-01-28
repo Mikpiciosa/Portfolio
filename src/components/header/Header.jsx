@@ -1,11 +1,27 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Header.css";
 import logo from "/logo/logoTitle.svg";
 
 export const Header = () => {
   const [isClickedMenu, setIsClickedMenu] = useState(false);
 
-  console.log(isClickedMenu);
+  // Prevenir scroll cuando el menú está abierto
+  useEffect(() => {
+    if (isClickedMenu) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    
+    // Cleanup function
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [isClickedMenu]);
+
+  const closeMenu = () => {
+    setIsClickedMenu(false);
+  };
 
   return (
     <header className="header">
@@ -21,24 +37,48 @@ export const Header = () => {
           <div className="menu__item"></div>
           <div className="menu__item"></div>
         </div>
+        {isClickedMenu && (
+          <div 
+            className="menu__overlay"
+            onClick={closeMenu}
+          ></div>
+        )}
         <ul className={`menu__list ${isClickedMenu && "menu__list--open"} `}>
+          <li className="list__item list__item--close">
+            <button 
+              className="menu__close"
+              onClick={closeMenu}
+              aria-label="Cerrar menú"
+            >
+              ✕
+            </button>
+          </li>
           <li className="list__item">
-            <a className="list__link" href="#about">
+            <a 
+              className="list__link" 
+              href="#about"
+              onClick={closeMenu}
+            >
               About
             </a>
           </li>
           <li className="list__item">
-            <a className="list__link" href="#projects">
+            <a 
+              className="list__link" 
+              href="#projects"
+              onClick={closeMenu}
+            >
               Projects
             </a>
           </li>
           <li className="list__item">
-            <a className="list__link" href="#contact">
+            <a 
+              className="list__link" 
+              href="#contact"
+              onClick={closeMenu}
+            >
               Contact
             </a>
-          </li>
-          <li className="list__item">
-            <button></button>
           </li>
         </ul>
       </nav>
